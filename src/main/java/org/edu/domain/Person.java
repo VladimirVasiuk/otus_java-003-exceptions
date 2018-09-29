@@ -1,0 +1,25 @@
+package org.edu.domain;
+
+public class Person {
+
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        // TODO: 1. сгенерируйте IllegalArgumentException при некорректном занчении
+        this.age = age;
+    }
+}
